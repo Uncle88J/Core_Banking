@@ -59,7 +59,7 @@ public class CustomerManagerCLI {
     }
 
     private Customer selectCustomer() {
-        System.out.print("Please Enter ID: ");
+        System.out.print("Please Enter ID:");
         int id = Integer.parseInt(scanner.nextLine());
 
         Customer customer;
