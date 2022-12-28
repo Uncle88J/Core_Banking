@@ -21,7 +21,7 @@ public class DBManager {
 
 
     public int executeUpdate(String query, Object... params) throws SQLException {
-        PreparedStatement statement = null;
+        Statement statement = null;
         try {
             statement = getConnection().createStatement();
             return statement.executeUpdate(query);
